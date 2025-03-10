@@ -66,6 +66,18 @@ document.getElementById('btn-3').addEventListener('click', function (event){
         if(taskIncrease >=0){
             const increase = increaseUpdate + 1;
             document.getElementById('task-increase').innerText = increase;
+
+            const container = document.getElementById('container-3');
+            const currentTime = new Date().toLocaleTimeString();
+            const cardContainer = document.getElementById('card-container-3');
+            const cardContainerTitle = cardContainer.querySelector('h2').textContent;
+
+            const p = document.createElement('p');
+            p.innerText= `
+            You have Completed The Task ${cardContainerTitle} at ${currentTime}
+            
+            `
+            container.appendChild(p)
         }  
     } 
 })
@@ -82,6 +94,18 @@ document.getElementById('btn-4').addEventListener('click', function (event){
         if(taskIncrease >=0){
             const increase = increaseUpdate + 1;
             document.getElementById('task-increase').innerText = increase;
+
+            const container = document.getElementById('container-4');
+            const currentTime = new Date().toLocaleTimeString();
+            const cardContainer = document.getElementById('card-container-4');
+            const cardContainerTitle = cardContainer.querySelector('h2').textContent;
+
+            const p = document.createElement('p');
+            p.innerText= `
+            You have Completed The Task ${cardContainerTitle} at ${currentTime}
+            
+            `
+            container.appendChild(p)
         }  
     } 
 })
@@ -98,6 +122,18 @@ document.getElementById('btn-5').addEventListener('click', function (event){
         if(taskIncrease >=0){
             const increase = increaseUpdate + 1;
             document.getElementById('task-increase').innerText = increase;
+
+            const container = document.getElementById('container-5');
+            const currentTime = new Date().toLocaleTimeString();
+            const cardContainer = document.getElementById('card-container-5');
+            const cardContainerTitle = cardContainer.querySelector('h2').textContent;
+
+            const p = document.createElement('p');
+            p.innerText= `
+            You have Completed The Task ${cardContainerTitle} at ${currentTime}
+            
+            `
+            container.appendChild(p)
         }  
     } 
 })
@@ -114,6 +150,18 @@ document.getElementById('btn-6').addEventListener('click', function (event){
         if(taskIncrease >=0){
             const increase = increaseUpdate + 1;
             document.getElementById('task-increase').innerText = increase;
+
+            const container = document.getElementById('container-6');
+            const currentTime = new Date().toLocaleTimeString();
+            const cardContainer = document.getElementById('card-container-6');
+            const cardContainerTitle = cardContainer.querySelector('h2').textContent;
+
+            const p = document.createElement('p');
+            p.innerText= `
+            You have Completed The Task ${cardContainerTitle} at ${currentTime}
+            
+            `
+            container.appendChild(p)
         }  
     } 
 })
