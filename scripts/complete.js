@@ -140,11 +140,12 @@ document.getElementById('btn-5').addEventListener('click', function (event){
 
 document.getElementById('btn-6').addEventListener('click', function (event){
     event.preventDefault();
+    alert('Board updated Successfully')
     const taskAssign = document.getElementById('task-decrease').innerText; 
     const taskIncrease= document.getElementById('task-increase').innerText;
     const increaseUpdate = parseInt(taskIncrease);
     if(taskAssign >=0){
-        alert('Board updated Successfully')
+        alert('Congratulations!!! You have completed all the current tasks')
         const decrease= taskAssign - 1;
         document.getElementById('task-decrease').innerText = decrease;
         if(taskIncrease >=0){
