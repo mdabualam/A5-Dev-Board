@@ -4,7 +4,7 @@ document.getElementById('btn-1').addEventListener('click', function (event){
     const taskIncrease= document.getElementById('task-increase').innerText;
     const increaseUpdate = parseInt(taskIncrease);
     if(taskAssign >=0){
-        alert('hello')
+        alert('Board updated Successfully')
         const decrease= taskAssign - 1;
         document.getElementById('task-decrease').innerText = decrease;
         if(taskIncrease >=0){
