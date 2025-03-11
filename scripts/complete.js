@@ -32,7 +32,7 @@ document.getElementById('btn-2').addEventListener('click', function (event){
     const taskIncrease= document.getElementById('task-increase').innerText;
     const increaseUpdate = parseInt(taskIncrease);
     if(taskAssign >=0){
-        alert('hello')
+        alert('Board updated Successfully')
         const decrease= taskAssign - 1;
         document.getElementById('task-decrease').innerText = decrease;
         if(taskIncrease >=0){
@@ -60,7 +60,7 @@ document.getElementById('btn-3').addEventListener('click', function (event){
     const taskIncrease= document.getElementById('task-increase').innerText;
     const increaseUpdate = parseInt(taskIncrease);
     if(taskAssign >=0){
-        alert('hello')
+        alert('Board updated Successfully')
         const decrease= taskAssign - 1;
         document.getElementById('task-decrease').innerText = decrease;
         if(taskIncrease >=0){
@@ -88,7 +88,7 @@ document.getElementById('btn-4').addEventListener('click', function (event){
     const taskIncrease= document.getElementById('task-increase').innerText;
     const increaseUpdate = parseInt(taskIncrease);
     if(taskAssign >=0){
-        alert('hello')
+        alert('Board updated Successfully')
         const decrease= taskAssign - 1;
         document.getElementById('task-decrease').innerText = decrease;
         if(taskIncrease >=0){
@@ -116,7 +116,7 @@ document.getElementById('btn-5').addEventListener('click', function (event){
     const taskIncrease= document.getElementById('task-increase').innerText;
     const increaseUpdate = parseInt(taskIncrease);
     if(taskAssign >=0){
-        alert('hello')
+        alert('Board updated Successfully')
         const decrease= taskAssign - 1;
         document.getElementById('task-decrease').innerText = decrease;
         if(taskIncrease >=0){
@@ -144,7 +144,7 @@ document.getElementById('btn-6').addEventListener('click', function (event){
     const taskIncrease= document.getElementById('task-increase').innerText;
     const increaseUpdate = parseInt(taskIncrease);
     if(taskAssign >=0){
-        alert('hello')
+        alert('Board updated Successfully')
         const decrease= taskAssign - 1;
         document.getElementById('task-decrease').innerText = decrease;
         if(taskIncrease >=0){
