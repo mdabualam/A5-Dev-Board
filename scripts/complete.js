@@ -162,6 +162,8 @@ document.getElementById('btn-6').addEventListener('click', function (event){
             
             `
             container.appendChild(p)
+
+            
         }  
     } 
 })
